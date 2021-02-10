@@ -17,7 +17,10 @@ composer require danharrin/date-format-converter
 Use the `convert_date_format()` method to initialise a new instance of the converter, ready to use:
 
 ```php
-convert_date_format('Y-m-d H:i:s')->to('moment');
+convert_date_format('Y-m-d H:i:s')->to('day.js');
+// YYYY-MM-DD HH:mm:ss
+
+convert_date_format('Y-m-d H:i:s')->to('moment.js');
 // YYYY-MM-DD HH:mm:ss
 ```
 
