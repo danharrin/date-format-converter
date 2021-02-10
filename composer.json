@@ -18,7 +18,8 @@
     },
     "autoload": {
         "files": [
-            "src/helpers.php"
+            "src/helpers.php",
+            "src/standards.php"
         ],
         "psr-4": {
             "DanHarrin\\DateFormatConverter\\": "src/"
