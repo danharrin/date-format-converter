@@ -2,7 +2,7 @@
 
 namespace DanHarrin\DateFormatConverter;
 
-class Format
+class Converter
 {
     public $format;
 
