@@ -30,4 +30,4 @@ convert_date_format('Y-m-d H:i:s')->to('moment.js');
 
 🤔 If you have a question or feature request, please [start a new discussion](https://github.com/danharrin/date-format-converter/discussions/new).
 
-🔐 If you discover a vulnerability within the package, please review our [security policy](https://github.com/danharrin/date-format-converter/blob/master/SECURITY.md).
+🔐 If you discover a vulnerability within the package, please review our [security policy](https://github.com/danharrin/date-format-converter/blob/main/SECURITY.md).
