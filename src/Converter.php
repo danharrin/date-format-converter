@@ -16,15 +16,19 @@ class Converter
         $format = '';
 
         $escape = false;
+        
         foreach (str_split($this->format) as $token) {
             if ($token === '[') {
                 $escape = true;
             }
+            
             if ($escape) {
                 if ($token === ']') {
                     $escape = false;
                 }
+                
                 $format .= $token;
+                
                 continue;
             }
 
